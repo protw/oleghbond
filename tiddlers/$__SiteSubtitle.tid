@@ -1,0 +1,6 @@
+created: 20180826211441043
+modified: 20181204200044863
+title: $:/SiteSubtitle
+type: text/vnd.tiddlywiki
+
+{{$:/boa/subtitle}}
