@@ -1,6 +1,6 @@
 created: 20181204201702375
 icon: $:/boa/svg/id-card-regular.svg
-modified: 20191125124749223
+modified: 20191127082007312
 tags: 
 title: Actual personal data
 type: text/vnd.tiddlywiki
@@ -8,8 +8,11 @@ type: text/vnd.tiddlywiki
 \define icn(img,txt,size) 
 <<image-left $:/boa/svg/$img$.svg $size$>>
 $txt$
-<div style="clear:both;"/>
 \end
+
+<div style="float:right;">
+[img width=320px [OleghBondarenko-QR.png]]
+</div>
 
 !!Olegh Bondarenko
 
@@ -19,5 +22,7 @@ $txt$
 <<icn phone-solid "+380-44-4067983 work, +380-50-7848214 mob" 24px>>
 <<icn envelope-solid "prof@stud.nau.edu.ua, o.o.bondarenko@gmail.com" 24px>>
 <<icn facebook-square-brands "https://facebook.com/olegh.bondarenko" 24px>>
+
+<div style="clear:both;"/>
 
 @@font-size:9px;This record is actual as of December 2018.@@
