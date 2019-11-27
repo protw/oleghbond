@@ -1,6 +1,6 @@
 created: 20181204201702375
 icon: $:/boa/svg/id-card-regular.svg
-modified: 20191127082007312
+modified: 20191127125907957
 tags: 
 title: Actual personal data
 type: text/vnd.tiddlywiki
@@ -10,8 +10,8 @@ type: text/vnd.tiddlywiki
 $txt$
 \end
 
-<div style="float:right;">
-[img width=320px [OleghBondarenko-QR.png]]
+<div style="float:right;width:40%;">
+[img[OleghBondarenko-QR.png]]
 </div>
 
 !!Olegh Bondarenko
