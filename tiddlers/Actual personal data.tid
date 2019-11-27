@@ -1,6 +1,6 @@
 created: 20181204201702375
 icon: $:/boa/svg/id-card-regular.svg
-modified: 20191127125907957
+modified: 20191127130852615
 tags: 
 title: Actual personal data
 type: text/vnd.tiddlywiki
@@ -8,6 +8,7 @@ type: text/vnd.tiddlywiki
 \define icn(img,txt,size) 
 <<image-left $:/boa/svg/$img$.svg $size$>>
 $txt$
+<div style="clear:left;"/>
 \end
 
 <div style="float:right;width:40%;">
@@ -15,14 +16,13 @@ $txt$
 </div>
 
 !!Olegh Bondarenko
-
+<div>
 <<icn sitemap-solid "Head of Department for Innovation Project Management in Education" 24px>>
 <<icn university-solid "National Aviation University" 24px>>
 <<icn map-marker-alt-solid "1 Ljubomyr Ghuzar (formerly Cosmonaut Komarov) prospect, 03058 Kyiv, Ukraine" 18px>>
 <<icn phone-solid "+380-44-4067983 work, +380-50-7848214 mob" 24px>>
 <<icn envelope-solid "prof@stud.nau.edu.ua, o.o.bondarenko@gmail.com" 24px>>
 <<icn facebook-square-brands "https://facebook.com/olegh.bondarenko" 24px>>
-
-<div style="clear:both;"/>
+</div>
 
 @@font-size:9px;This record is actual as of December 2018.@@
