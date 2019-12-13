@@ -1,13 +1,15 @@
 created: 20181204201702375
 icon: $:/boa/svg/id-card-regular.svg
-modified: 20191127130852615
+modified: 20191213081131074
 tags: 
 title: Actual personal data
 type: text/vnd.tiddlywiki
 
 \define icn(img,txt,size) 
+<div style="margin-bottom:10px;">
 <<image-left $:/boa/svg/$img$.svg $size$>>
-$txt$
+$txt$ 
+</div>
 <div style="clear:left;"/>
 \end
 
