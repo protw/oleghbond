@@ -1,6 +1,6 @@
 created: 20181204201702375
 icon: $:/boa/svg/id-card-regular.svg
-modified: 20191213081131074
+modified: 20200121092106203
 tags: 
 title: Actual personal data
 type: text/vnd.tiddlywiki
@@ -27,4 +27,4 @@ $txt$
 <<icn facebook-square-brands "https://facebook.com/olegh.bondarenko" 24px>>
 </div>
 
-@@font-size:9px;This record is actual as of December 2018.@@
+@@font-size:9px;This record is actual as of Jan 2020.@@
