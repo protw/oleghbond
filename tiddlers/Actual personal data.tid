@@ -1,6 +1,6 @@
 created: 20181204201702375
 icon: $:/boa/svg/id-card-regular.svg
-modified: 20200121092106203
+modified: 20200808201354214
 tags: 
 title: Actual personal data
 type: text/vnd.tiddlywiki
@@ -24,7 +24,7 @@ $txt$
 <<icn map-marker-alt-solid "1 Ljubomyr Ghuzar (formerly Cosmonaut Komarov) prospect, 03058 Kyiv, Ukraine" 18px>>
 <<icn phone-solid "+380-44-4067983 work, +380-50-7848214 mob" 24px>>
 <<icn envelope-solid "prof@stud.nau.edu.ua, o.o.bondarenko@gmail.com" 24px>>
-<<icn facebook-square-brands "https://facebook.com/olegh.bondarenko" 24px>>
+<<icn facebook-square-brands "https://fb.com/olegh.bondarenko" 24px>>
 </div>
 
 @@font-size:9px;This record is actual as of Jan 2020.@@
