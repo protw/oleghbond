@@ -232,6 +232,8 @@ Error message and password prompt
 
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/save-wiki</li>
 
+<li>$:/config/RelinkOnRename</li>
+
 <li>$:/config/tiddlyweb/host</li>
 
 <li>$:/config/Toolbar/Text</li>
@@ -893,6 +895,9 @@ $$
 </div>
 <div created="20181204221351114" modified="20181204221352249" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/save-wiki" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>hide</pre>
+</div>
+<div created="20210727093427303" modified="20210727093427303" title="$:/config/RelinkOnRename" revision="0" bag="default">
+<pre>yes</pre>
 </div>
 <div title="$:/config/tiddlyweb/host" revision="0" bag="default">
 <pre>$protocol$//$host$/wikis/wiki-1/</pre>
@@ -10922,7 +10927,7 @@ $$
 <div list="[[Actual personal data]] [[Education and qualification]] [[Scientific indexes]] Languages [[Professional experience]] [[Particular expertise]] [[Documents and standards]] [[National and international projects]] [[Internet publishing]] [[SVG icons license]]" title="$:/StoryList" revision="1" bag="default">
 <pre></pre>
 </div>
-<div created="20181204204756759" modified="20210425193843282" tags="" title="$:/theme" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div created="20181204204756759" modified="20210727094129930" tags="" title="$:/theme" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>$:/themes/tiddlywiki/readonly</pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" created="20181204213248500" dependents="$:/themes/tiddlywiki/snowwhite" description="Hides the ability to edit tiddlers" modified="20181204213248500" name="ReadOnly" plugin-type="theme" title="$:/themes/tiddlywiki/readonly" type="application/json" version="5.1.17" revision="0" bag="default">
@@ -11069,7 +11074,7 @@ $$
 <div created="20180826190902610" modified="20180826190904760" title="$:/themes/tiddlywiki/vanilla/metrics/tiddlerwidth" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>886px</pre>
 </div>
-<div created="20181204201702375" icon="$:/boa/svg/id-card-regular.svg" modified="20210425193822108" tags="" title="Actual personal data" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div created="20181204201702375" icon="$:/boa/svg/id-card-regular.svg" modified="20210727093443880" tags="" title="Actual personal data" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>\define icn(img,txt,size) 
 &lt;div style=&quot;margin-bottom:10px;&quot;&gt;
 &lt;&lt;image-left $:/boa/svg/$img$.svg $size$&gt;&gt;
@@ -11082,15 +11087,18 @@ $txt$
 [img[OleghBondarenko-QR.png]]
 &lt;/div&gt;
 
-!!Olegh Bondarenko
+
+!!Olegh Bondarenko, DSc
 &lt;div&gt;
-&lt;&lt;icn sitemap-solid &quot;Head of Department for Innovation Project Management in Education&quot; 24px&gt;&gt;
-&lt;&lt;icn university-solid &quot;National Aviation University&quot; 24px&gt;&gt;
+&lt;&lt;icn sitemap-solid &quot;Head of Project Office&quot; 24px&gt;&gt;
+&lt;&lt;icn university-solid &quot;National Ecological Centre of Ukraine&quot; 24px&gt;&gt;
 &lt;&lt;icn map-marker-alt-solid &quot;&amp;nbsp;&amp;nbsp;Kyiv, Ukraine&quot; 18px&gt;&gt;
+&lt;&lt;icn envelope-solid &quot;oleghbond@necu.org.ua&quot; 24px&gt;&gt;
+&lt;&lt;icn phone-solid &quot;+380-50-7848214&quot; 24px&gt;&gt;
 &lt;&lt;icn facebook-square-brands &quot;https://fb.com/olegh.bondarenko&quot; 24px&gt;&gt;
 &lt;/div&gt;
 
-@@font-size:9px;This record is actual as of April 2021.@@</pre>
+@@font-size:9px;This record is actual as of July 2021@@</pre>
 </div>
 <div created="20181204211213157" icon="$:/boa/svg/file-alt-regular.svg" modified="20191213080717668" tags="" title="Documents and standards" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>!!Development and reviewing legislative documents and standards in fields of professional interests (selected):
@@ -11149,7 +11157,7 @@ Diploma No. DD 002540, speciality 03.00.01 radiobiology. Defense took place on A
 * “Methodological and instrumental support of internal dosimetry of the personnel of the Object “Shelter”, state reg. No. DR 0196U024135, sci. coordinator, 1996-2000.
 </pre>
 </div>
-<div _canonical_uri="./images/OleghBondarenko-QR.png" created="20210425192943933" modified="20210425192943933" title="OleghBondarenko-QR.png" type="image/png" revision="2" bag="default">
+<div _canonical_uri="./images/OleghBondarenko-QR.png" created="20210727093412787" modified="20210727093433799" title="OleghBondarenko-QR.png" type="image/png" revision="2" bag="default">
 <pre></pre>
 </div>
 <div created="20181204210300742" icon="$:/boa/svg/certificate-solid.svg" modified="20200121204236974" tags="" title="Particular expertise" type="text/vnd.tiddlywiki" revision="0" bag="default">
@@ -11161,8 +11169,9 @@ Diploma No. DD 002540, speciality 03.00.01 radiobiology. Defense took place on A
 * [[Member of the National Radiation Protection Commission of Ukraine|http://zakon2.rada.gov.ua/laws/show/1791-17]] since 2009.
 * Chornobyl wastes Project co-ordination unit (CW PCU, TACIS). Deputy Director, responsible for co-ordination of the projects at the Chornobyl exclusion zone, 2005.</pre>
 </div>
-<div created="20181204205434550" icon="$:/boa/svg/tasks-solid.svg" modified="20181204205652772" tags="" title="Professional experience" type="text/vnd.tiddlywiki" revision="0" bag="default">
-<pre>* 2017 – till now. Management of innovation activity in the National Aviation University, Kyiv.
+<div created="20181204205434550" icon="$:/boa/svg/tasks-solid.svg" modified="20210727093818973" tags="" title="Professional experience" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>* July 2021 - till now. Head of Project Office, National Ecological Centre of Ukraine, Kyiv.
+* 2017 – July 2021. Management of innovation activity in the National Aviation University, Kyiv.
 * 2015 – 2017. Combatant of Ukrainian-Russian war (Eastern Ukraine), development and implementation of innovative technologies in the defense sector of Ukraine.
 * 2011 – 2015. Lawmaking expert and educational activity in nuclear and ecological fields.
 * 1986 – 2011. Involvement in research, monitoring programs and countermeasures concerning mitigation of consequences of the Chornobyl nuclear accident. The last position (2005 – 2011) – director of the Chornobyl Radioecological Centre (state enterprise located in Chornobyl city).
