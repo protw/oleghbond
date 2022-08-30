@@ -1,6 +1,6 @@
 created: 20181204201702375
 icon: $:/boa/svg/id-card-regular.svg
-modified: 20211018095718642
+modified: 20220830102042931
 tags: 
 title: Actual personal data
 type: text/vnd.tiddlywiki
@@ -25,7 +25,6 @@ $txt$
 <<icn map-marker-alt-solid "&nbsp;&nbsp;Kyiv, Ukraine" 18px>>
 <<icn globe-solid "https://necu.org.ua/en" 24px>>
 <<icn envelope-solid "oleghbond@necu.org.ua" 24px>>
-<<icn phone-solid "+380-50-7848214" 24px>>
 <<icn facebook-square-brands "https://fb.com/olegh.bondarenko" 24px>>
 </div>
 
