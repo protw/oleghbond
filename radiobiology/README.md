@@ -1,12 +1,3 @@
-
-Search
-
-
-
-Write
-
-
-
 # Історія радіобіології в Україні: витоки, становлення, розвиток
 
 ![img](ivan-puluj-rays-discovery.jpg)
@@ -25,7 +16,8 @@ Write
 
 # Джерело
 
-Гудков І.М. Історія радіобіології в Україні: витоки, становлення, розвиток: монографія. Київ: НУБіП України, 2024. 114 с. 
+Гудков І.М. Історія радіобіології в Україні: витоки, становлення, розвиток: монографія. Київ: НУБіП України, 2024. 114 с. https://github.com/protw/oleghbond/blob/master/radiobiology/240818%20Radiobiology%20history%20of%20Ukraine.pdf
 
 # Англомовна стаття
 
+History of radiobiology in Ukraine: origins, formation, development — https://medium.com/p/7e8adac88436
