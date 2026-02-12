@@ -1,0 +1,169 @@
+created: 20140217160644604
+creator: Danielo Rodriguez
+modified: 20180908195625344
+modifier: Olegh Bond
+tags: macros $:/tags/Macro
+title: $:/boa/macros/caption
+type: text/vnd.tiddlywiki
+
+\define ref_r(label)
+<$button popup="$:/state/r_$label$" class="tc-btn-invisible tc-slider">[<span style="color:blue">$label$</span>]</$button>
+\end
+
+\define definition_r(label,text)
+<$reveal type="popup" state="$:/state/r_$label$" animate="yes">
+<div class="tc-drop-down">
+<dl>
+<span style="color:lightgrey;">Посилання</span>
+<dt>$label$</dt>
+<dd>$text$</dd>
+</dl>
+</div>
+</$reveal>
+\end
+
+\define caption_r(label,text)
+<<ref_r "$label$">>
+<<definition_r "$label$" "$text$">>
+\end
+
+\define captions_r(label,text)
+<<definition_r "$label$" "$text$">>
+[<span style="color:blue">$label$</span>] $text$
+\end
+
+\define ref_n(label)
+<$button popup="$:/state/n_$label$" class="tc-btn-invisible tc-slider"><sup><span style="color:blue">$label$</span></sup></$button>
+\end
+
+\define definition_n(label,text)
+<$reveal type="popup" state="$:/state/n_$label$" animate="yes">
+<div class="tc-drop-down">
+<dl>
+<span style="color:lightgrey;">Виноска</span>
+<dt>$label$</dt>
+<dd>$text$</dd>
+</dl>
+</div>
+</$reveal>
+\end
+
+\define caption_n(label,text)
+<<ref_n "$label$">>
+<<definition_n "$label$" "$text$">>
+\end
+
+\define captions_n(label,text)
+<<definition_n "$label$" "$text$">>
+<sup><span style="color:blue">$label$</span> $text$</sup>
+\end
+
+\define ref_t(label)
+<$button popup="$:/state/t_$label$" class="tc-btn-invisible tc-slider"><span style="color:blue">$label$</span></$button>
+\end
+
+\define definition_t(label,text)
+<$reveal type="popup" state="$:/state/t_$label$" animate="yes">
+<div class="tc-drop-down">
+<dl>
+<span style="color:lightgrey;">Таблиця</span>
+<dt>$label$</dt>
+<dd>$text$</dd>
+</dl>
+</div>
+</$reveal>
+\end
+
+\define caption_t(label,text)
+<<ref_t "$label$">>
+<<definition_t "$label$" "$text$">>
+\end
+
+\define captions_t(label,text)
+<<definition_t "$label$" "$text$">>
+Таблиця <span style="color:blue">$label$</span>. $text$
+\end
+
+\define ref_g(label)
+<$button popup="$:/state/g_$label$" class="tc-btn-invisible tc-slider"><span style="color:blue">$label$</span></$button>
+\end
+
+\define definition_g(label,text)
+<$reveal type="popup" state="$:/state/g_$label$" animate="yes">
+<div class="tc-drop-down">
+<dl>
+<span style="color:lightgrey;">Рисунок</span>
+<dt>$label$</dt>
+<dd>$text$</dd>
+</dl>
+</div>
+</$reveal>
+\end
+
+\define caption_g(label,text)
+<<ref_g "$label$">>
+<<definition_g "$label$" "$text$">>
+\end
+
+\define captions_g(label,text)
+<<definition_g "$label$" "$text$">>
+Рисунок <span style="color:blue">$label$</span>. $text$
+\end
+
+\define ref_a(label)
+<$button popup="$:/state/a_$label$" class="tc-btn-invisible tc-slider"><span style="color:blue">$label$</span></$button>
+\end
+
+\define definition_a(label,text)
+<$reveal type="popup" state="$:/state/a_$label$" animate="yes">
+<div class="tc-drop-down">
+<dl>
+<span style="color:lightgrey;">Скорочення</span>
+<dt>$label$</dt>
+<dd>$text$</dd>
+</dl>
+</div>
+</$reveal>
+\end
+
+\define caption_a(label,text)
+<<ref_a "$label$">>
+<<definition_a "$label$" "$text$">>
+\end
+
+\define captions_a(label,text)
+<<definition_a "$label$" "$text$">>
+<div style="display:inline-block;width:10%;"><span style="color:blue">$label$</span></div>
+<div style="display:inline-block;width:60%;">$text$</div>
+\end
+
+\define ref_f(label)
+<$button popup="$:/state/f_$label$" class="tc-btn-invisible tc-slider">(<span style="color:blue">$label$</span>)</$button>
+\end
+
+\define definition_f(label,text)
+<$reveal type="popup" state="$:/state/f_$label$" animate="yes">
+<div class="tc-drop-down">
+<dl>
+<span style="color:lightgrey;">Формула</span>
+<dt>$label$</dt>
+<dd>$$ $text$ $$</dd>
+</dl>
+</div>
+</$reveal>
+\end
+
+\define caption_f(label,text)
+<<ref_f "$label$">>
+<<definition_f "$label$" "$text$">>
+\end
+
+\define captions_f(label,text)
+<<definition_f "$label$" "$text$">>
+<div style="display:inline-block;width:60%;">
+$$
+$text$
+$$
+</div>
+<div style="display:inline-block;width:10%;">(<span style="color:blue">$label$</span>)</div>
+\end

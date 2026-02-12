@@ -1,0 +1,31 @@
+created: 20181204201702375
+icon: $:/boa/svg/id-card-regular.svg
+modified: 20260212094155811
+tags: 
+title: Actual personal data
+type: text/vnd.tiddlywiki
+
+\define icn(img,txt,size) 
+<div style="margin-bottom:10px;">
+<<image-left $:/boa/svg/$img$.svg $size$>>
+$txt$ 
+</div>
+<div style="clear:left;"/>
+\end
+
+<div style="float:right;width:30%;">
+[img[OleghBondarenko-QR.png]]
+</div>
+
+
+!!Olegh Bondarenko, DSc
+<div>
+<<icn sitemap-solid "Head of Project Office, Deputy Head of Council" 24px>>
+<<icn university-solid "National Ecological Centre of Ukraine" 24px>>
+<<icn map-marker-alt-solid "&nbsp;&nbsp;Kyiv, Ukraine" 18px>>
+<<icn globe-solid "https://necu.org.ua/about-us-en/" 24px>>
+<<icn envelope-solid "oleghbond@gw.necu.org.ua" 24px>>
+<<icn facebook-square-brands "https://fb.com/olegh.bondarenko" 24px>>
+</div>
+
+@@font-size:9px;This record is actual as of July 2021@@
